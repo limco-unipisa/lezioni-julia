@@ -38,13 +38,13 @@ Questo script scaricherà e installerà l'ultima versione stabile di Julia e jul
 
 Dopo l'installazione, potete avviare Julia digitando `julia` nel terminale.
 
-### Jupyter Notebooks
+## Jupyter Notebooks
 
 Gli esempi riportati in questo repository sono in formato Jupyter Notebook. Potete seguire questi notebook utilizzando JupyterLab o Jupyter Notebook, oppure visualizzarli direttamente su GitHub e replicando i comandi nella vostra installazione di Julia.
 
 Per installere JupyterLab, la procedura è di nuovo leggermente diversa tra Windows e Linux.
 
-#### Windows
+### Windows
 
 In primo luogo avete bisogno di **avere Python e pip** installati sul vostro sistema Windows. Se non li avete ancora, potete installare Python dal [sito ufficiale di Python](https://www.python.org/downloads/windows/). Il software pip può essere
 poi installato seguendo le istruzioni sul [sito ufficiale di pip](https://pip.pypa.io/en/stable/installation/).
@@ -71,7 +71,7 @@ jupyter lab
 Quando create un nuovo notebook, troverete Julia disponibile tra i kernel disponibili:
 - ![Kernel Julia in JupyterLab](assets/jupyter.png)
 
-#### Linux/MacOS
+### Linux/MacOS
 
 Python è spesso già installato su Linux e MacOS, ma se non lo avete, potete installarlo utilizzando il gestore di pacchetti del vostro sistema (ad esempio `apt` su Ubuntu o `brew` su MacOS). Una volta che Python è installato, potete installare pip seguendo le istruzioni sul [sito ufficiale di pip](https://pip.pypa.io/en/stable/installation/). 
 
@@ -100,7 +100,7 @@ jupyter lab
 Quando create un nuovo notebook, troverete Julia disponibile tra i kernel disponibili:
 - ![Kernel Julia in JupyterLab](assets/jupyter.png)
 
-#### Online tramite Google Colab
+## Online tramite Google Colab
 
 Se non volete installare nulla sul vostro computer, potete eseguire i notebook direttamente online utilizzando [Google Colab](https://colab.research.google.com/). Per farlo, basta aprire il link, fare login con il vostro account di ateneo ed inserire
 l'url di questo repository:
